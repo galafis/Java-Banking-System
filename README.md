@@ -2,6 +2,8 @@
 
 <div align="center">
 
+![Java Banking System Hero Image](/java_banking_system_hero.png)
+
 ![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0+-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-3.8+-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
@@ -26,14 +28,14 @@ Enterprise Banking Management System built with modern Java technologies and ent
 
 ### ✨ Key Features
 
-• Multi-currency account management
-• Real-time transaction processing
-• Advanced security protocols
-• Comprehensive audit trails
-• RESTful API architecture
-• Role-based access control
-• Automated compliance reporting
-• Integration with payment gateways
+- Multi-currency account management
+- Real-time transaction processing
+- Advanced security protocols
+- Comprehensive audit trails
+- RESTful API architecture
+- Role-based access control
+- Automated compliance reporting
+- Integration with payment gateways
 
 ### 🛠️ Technology Stack
 
@@ -190,14 +192,14 @@ Enterprise Banking Management System construído com tecnologias Java modernas e
 
 ### ✨ Principais Funcionalidades
 
-• Multi-currency account management
-• Real-time transaction processing
-• Advanced security protocols
-• Comprehensive audit trails
-• RESTful API architecture
-• Role-based access control
-• Automated compliance reporting
-• Integration with payment gateways
+- Gerenciamento de contas multi-moeda
+- Processamento de transações em tempo real
+- Protocolos de segurança avançados
+- Trilhas de auditoria abrangentes
+- Arquitetura de API RESTful
+- Controle de acesso baseado em função
+- Relatórios de conformidade automatizados
+- Integração com gateways de pagamento
 
 ### 🛠️ Stack Tecnológica
 
@@ -262,60 +264,83 @@ curl http://localhost:8080/api/v1/info
 Edite `application.properties` para personalizar as configurações:
 
 ```properties
-# Configuração do servidor
+# Server configuration
 server.port=8080
 server.servlet.context-path=/api
 
-# Configuração do banco de dados (se aplicável)
+# Database configuration (if applicable)
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driver-class-name=org.h2.Driver
 
-# Configuração de logging
+# Logging configuration
 logging.level.com.galafis=DEBUG
 ```
 
-### 🧪 Testes
+### 🏗️ Project Structure
 
-Execute a suíte completa de testes:
+```
+Java-Banking-System/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/galafis/
+│   │   │       ├── Application.java
+│   │   │       ├── controller/
+│   │   │       ├── service/
+│   │   │       ├── model/
+│   │   │       └── config/
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── static/
+│   └── test/
+│       └── java/
+├── pom.xml
+├── README.md
+└── LICENSE
+```
+
+### 🧪 Testing
+
+Run the complete test suite:
 
 ```bash
-# Testes unitários
+# Unit tests
 mvn test
 
-# Testes de integração
+# Integration tests
 mvn verify
 
-# Relatório de cobertura de testes
+# Test coverage report
 mvn jacoco:report
 ```
 
-### 📦 Build para Produção
+### 📦 Building for Production
 
 ```bash
-# Criar JAR executável
+# Create executable JAR
 mvn clean package
 
-# Executar o arquivo JAR
+# Run the JAR file
 java -jar target/Java-Banking-System-1.0.0.jar
 
-# Build da imagem Docker (se Dockerfile existir)
+# Build Docker image (if Dockerfile exists)
 docker build -t Java-Banking-System .
 docker run -p 8080:8080 Java-Banking-System
 ```
 
-### 🤝 Contribuindo
+### 🤝 Contributing
 
-1. Faça um fork do repositório
-2. Crie uma branch para sua feature (`git checkout -b feature/funcionalidade-incrivel`)
-3. Commit suas mudanças (`git commit -m 'Adiciona funcionalidade incrível'`)
-4. Push para a branch (`git push origin feature/funcionalidade-incrivel`)
-5. Abra um Pull Request
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-### 📝 Licença
+### 📝 License
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### 👨‍💻 Autor
+### 👨‍💻 Author
 
 **Gabriel Demetrios Lafis**
 - GitHub: [@galafis](https://github.com/galafis)
@@ -330,3 +355,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 **🚀 Desenvolvido com ❤️ por Gabriel Demetrios Lafis**
 
 </div>
+
