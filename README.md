@@ -4,11 +4,6 @@
 
 ![Java Banking System Hero Image](/java_banking_system_hero.png)
 
-![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0+-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-3.8+-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0.0-green.svg?style=for-the-badge)
 
 **Enterprise Banking Management System**
 
